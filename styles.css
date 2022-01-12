@@ -1,0 +1,139 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root {
+    /* Primary */
+    --paleblue: hsl(225, 100%, 94%);
+    --brightblue: hsl(245, 75%, 52%);
+
+    /* Neutral */
+    --verypaleblue: hsl(225, 100%, 98%);
+    --desaturatedblue: hsl(224, 23%, 55%);
+    --darkblue: hsl(223, 47%, 23%);
+}
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 16px;
+    
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url("./images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color:var(--desaturatedblue)
+   
+    
+    
+}
+
+.container {
+    width: 450px;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: white;
+}
+.hero {
+    padding:0 !important;
+    margin:0 !important;
+}
+.order {
+    padding: 0.5rem 0;
+    margin: 0;
+    text-align: center;
+    width: 350px;
+    margin:0 auto;
+}
+.hero_img {
+    width: 100%;
+}
+.plan {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 20px;
+}
+.annual {
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+    padding-left:10px;
+
+}
+.payment {
+    padding-top: 20px;
+    margin: 1.5rem 0;
+
+}
+.proceed {
+    display: block;
+    background-color: var(--brightblue);
+    color:white;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.proceed:hover{
+    cursor: pointer;
+    background-color: #766cf1;
+}
+.cancel {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: var(--desaturatedblue);
+    font-size: 13px;
+    font-weight: 700;
+}
+.cancel:hover {
+    cursor: pointer;
+    color:black;
+}
+
+.title {
+    margin:1rem 0;
+    font-weight: 900px;
+    color:black
+}
+.description {
+    padding-bottom: 2rem;
+}
+.annualplan {
+    color:black;
+    font-weight: 900;
+    font-size: 14px;
+    
+}
+.price {
+    font-size: 14px;
+}
+
+.change {
+    font-size: 14px;
+    font-weight: 700;
+}
+.change:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color:#766cf1;
+}
+
+.icon {
+    padding-right: 15px;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
